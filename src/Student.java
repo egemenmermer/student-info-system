@@ -19,6 +19,10 @@ public class Student {
         this.c1 = c1;
         this.c2 = c2;
         this.c3 = c3;
+        this.s1 = c1;
+        this.s2 = c2;
+        this.s3 = c3;
+
         calcAvarage();
         this.isPass = false;
     }
