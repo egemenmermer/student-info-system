@@ -4,6 +4,7 @@ public class Course {
     String code;
     String prefix;
     int note;
+    int sozlu;
 
 
     Course(String name, String code, String prefix){
@@ -11,6 +12,7 @@ public class Course {
         this.code = code;
         this.prefix = prefix;
         int note = 0;
+        int sozlu = 0;
     }
 
     public void addTeacher(Teacher t){
