@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Teacher t1 = new Teacher("Ilber Ortayli", "TRH", "555");
+        Teacher t1 = new Teacher("Ilber Ortayli", "HIS", "555");
         Teacher t2 = new Teacher("Marie Curie", "CHE", "555");
-        Teacher t3 = new Teacher("Albert Einstein", "FIZ", "555");
+        Teacher t3 = new Teacher("Albert Einstein", "PHY", "555");
 
-        Course tarih = new Course("Tarih", "HIS101", "TRH");
+        Course tarih = new Course("Tarih", "HIS101", "HIS");
         Course kimya = new Course("Kimya", "CHE101", "CHE");
         Course fizik = new Course("Fizik", "PHY101", "PHY");
 
